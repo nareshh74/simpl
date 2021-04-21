@@ -46,4 +46,8 @@ Reporting:
     domain_service.get_due_balance_of_all_users()
 
 
-
+****NOTE
+currently entities - user, merchant are tightly dependant on service instance
+was thinking about injecting it rther than using directly in function.
+so we ll be able to mock at both service and repo levels.
+But due to limited time i got to spend in this, didnt do that.
